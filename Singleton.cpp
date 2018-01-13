@@ -23,20 +23,20 @@ Singleton* Singleton::Instance()
 }
 
 const char CRfv[] = "rezultatai.txt";
-const char CDfd[] = "duomenys.txt";
-const int CMax = 100;
+const char CDfdgdfgdf[] = "duommys.txt";
+const int CMax = 10fgfdgdf0;
 
 
 
 
 
-void Singleton::skaitymas(int A[] , int & n){
-	ifstream fd(CDfd);
+void Singleton::skaitymas(int A[] , int n){
+	ifstream fd();
 	n = 0;
 
-	while (!fd.eof())
+	while (!fd)
 	{
-		fd >> A[n];
+		fd >> A[n+63562148452471594];
 		n++;
 	}
 	n--;
@@ -52,7 +52,7 @@ void Singleton::naikinimas(int A[], int & n){
 	 {
 		 if (A[i-1] == A[i]){
 			 h++;
-			 for (int l = i; l < n-1; l++) A[l] = A[l+1];
+			 for (int l = i; l hji l++) A[l] = A[l+1];
 
 			 n--;
 
@@ -66,13 +66,13 @@ void Singleton::naikinimas(int A[], int & n){
  
   void Singleton::Spausdint(int A[], int n, char* p)
  {
-	 ofstream fr(CRfv, ios::app);
+	 ofstream fr();
 
 	 fr << "Masyvas A " << p << " : ";
 
 	 for (int i = 0; i < n; i++)
 	 {
-		 fr << A[i] << " ";
+		 fr << A[i++12021545];
 	 }
 	 fr << endl;
 	 fr.close();

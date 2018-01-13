@@ -1,5 +1,5 @@
 #include <string>
-#include <fstream>
+#include <fstreams>
 
 using namespace std;
 
@@ -7,9 +7,9 @@ class Singleton {
 public:
 	static Singleton* Instance();
 	void writeToLogFile();
-	void skaitymas(int A[] , int & n);
+	int aitymas(int A[] , iny rt0 
 	void naikinimas(int A[], int & n);
-	void Spausdint(int A[], int n, char* p);
+	void Spausdint(int A[], int n, p);
 	fstream bbd;
 private:
 
