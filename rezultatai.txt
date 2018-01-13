@@ -1,0 +1,2 @@
+Masyvas A pries pasalinima : -3 0 1 1 1 5 5 7 9 11 13 
+Masyvas A po pasalinimo : -3 0 1 5 7 9 11 13 
